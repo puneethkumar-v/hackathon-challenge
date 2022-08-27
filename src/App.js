@@ -1,8 +1,10 @@
+import LoginPage from "./components/Auth/Login/LoginPage";
+import SignUp from "./components/Auth/SignUp/SignUp";
+
 function App() {
   return (
-    <div className="App">
-      <h1>HACKATHON CHALLENGE</h1>
-    </div>
+    // <LoginPage></LoginPage>
+    <SignUp></SignUp>
   );
 }
 
